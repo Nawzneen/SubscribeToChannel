@@ -1,0 +1,23 @@
+GET http://localhost:3000/subscribers
+###
+GET http://localhost:3000/subscribers/646a3ca02529bed03dce5571
+###
+POST http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+  "name": "nrdsfsfrr",
+  "subscribedToChannel": "terfdsfswest"
+}
+
+###
+DELETE http://localhost:3000/subscribers/646a389e8c2d6fdf2ed5a1ae
+
+###
+PATCH http://localhost:3000/subscribers/646a490f32f75532f63a5f94
+Content-Type: application/json
+
+{
+  "name": "NEW NerwAME"
+}
+
