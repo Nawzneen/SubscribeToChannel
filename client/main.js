@@ -24,4 +24,8 @@ formElement.addEventListener("submit", (event) => {
       console.error("error", error.response.data);
       alert("Failed. Please try again.");
     });
+  formElement.reset();
+});
+window.addEventListener("load", () => {
+  formElement.reset();
 });
